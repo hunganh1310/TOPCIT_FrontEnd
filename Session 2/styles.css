@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    background-color: white;
+    width: 80%;
+}
+
+.header{
+    background-color: #E5E7E5;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.menu{
+    background-color: #E5E7E5;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+.content{
+    display: flex;
+    height: 500px;
+    margin: 5px auto;
+}
+
+.col1{
+    background-color: #E5E7E5;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    margin: 5px 5px 5px 0;
+    border-radius: 5px;
+}
+
+.col2{
+    background-color: #E5E7E5;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.col3{
+    background-color: #E5E7E5;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    margin: 5px 0 5px 5px;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: #E5E7E5;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+
+span {
+  display: inline-flex;      /* hoặc flex nếu block */
+  justify-content: center;   /* canh ngang */
+  align-items: center;       /* canh dọc */
+  height: auto;              /* cần chiều cao để canh dọc */
+}

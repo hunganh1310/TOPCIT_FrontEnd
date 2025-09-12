@@ -1,0 +1,141 @@
+body {
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+[class*="shape"] {
+    position: relative;
+    margin: 100px;
+}
+
+.shape_1 .rec_1 {
+    position: relative;;
+    width: 146px;
+    height: 126px;
+    background: #C4C4C4;
+}
+
+.shape_1 .sqr1 {
+position: absolute;
+width: 55px;
+height: 55px;
+top: 0;
+left: 0;
+background: #EB5757;
+}
+
+.shape_1 .sqr2 {
+position: absolute;
+width: 55px;
+height: 55px;
+background: #F2994A;
+bottom: 0;
+right: 0;
+}
+
+.shape_2{
+    display: grid;
+    grid-template-columns: repeat(2, 80px);
+    grid-template-rows: repeat(2, 80px);
+    gap: 0;
+    width: 160px;
+    margin: 40px auto; 
+}
+
+.diamond {
+    width: 80px;
+    height: 80px;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.orange { background: #F2994A; }
+.purple { background: #9B51E0; }
+.blue   { background: #2F80ED; }
+.red    { background: #EB5757; }
+
+.shape_3 {
+    position: relative;
+    width: 224px;
+    height: 237px;
+    background: #C4C4C4;
+    margin: 40px auto;
+}
+
+.shape_3 .top-red {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 223px;
+    height: 31px;
+    background: #EB5757;
+}
+
+.shape_3 .orange {
+    position: absolute;
+    top: 42px;
+    left: 0;
+    width: 149px;
+    height: 126px;
+    background: #F2994A;
+}
+
+.shape_3 .right-red {
+    position: absolute;
+    top: 42px;
+    left: 160px;
+    width: 64px;
+    height: 126px;
+    background: #EB5757;
+}
+
+.shape_3 .bottom-purple {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 224px;
+    height: 34px;
+    background: #9B51E0;
+}
+
+.shape_4{
+    width:385px;
+    height:110px;
+    display:grid;
+    grid-template-columns: repeat(7, 55px);
+    gap: 0;
+    box-sizing:border-box;
+}
+
+.shape_4 .cell{
+    width:55px;
+    height:55px;
+    background:#F2994A;
+    box-sizing:border-box;
+}
+
+.shape_4 .top {
+    align-self:start;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.shape_4 .bottom {
+    align-self:end;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.shape_5{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.shape_5 .diamond {
+    width: 78px;
+    height: 78px;
+    background: #2F80ED;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
