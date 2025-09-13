@@ -15,12 +15,12 @@
         "This is paragraph 3",
         "This is paragraph 4",
         "This is paragraph 5"
-        ];  
+        ];
 
         const wrapper = document.getElementById("wrapper");
         mang.forEach(text => {
             const p = document.createElement("p");
-            p.textContent = text;
+            p.innerText = text;
             wrapper.appendChild(p);
         });
 
