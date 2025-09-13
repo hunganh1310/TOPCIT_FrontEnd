@@ -41,10 +41,10 @@ right: 0;
     grid-template-rows: repeat(2, 80px);
     gap: 0;
     width: 160px;
-    margin: 40px auto; 
+    margin: 40px auto;
 }
 
-.diamond {
+.shape_2 .square {
     width: 80px;
     height: 80px;
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
