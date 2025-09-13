@@ -54,10 +54,10 @@ right: 0;
     clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
-.orange { background: #F2994A; }
-.purple { background: #9B51E0; }
-.blue   { background: #2F80ED; }
-.red    { background: #EB5757; }
+.shape_2 .orange { background: #F2994A; }
+.shape_2 .purple { background: #9B51E0; }
+.shape_2 .blue   { background: #2F80ED; }
+.shape_2 .red    { background: #EB5757; }
 
 .shape_3 {
     position: relative;
